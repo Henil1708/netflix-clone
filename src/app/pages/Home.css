@@ -1,0 +1,107 @@
+#hero{
+    position: relative;
+    margin-bottom: 8px;
+    background-color: black;
+}
+
+.landing-navbar {
+    background-color: transparent;
+    color: white;
+    z-index: 32;
+    position: relative;
+    height: 4rem;
+    background-color: transparent;
+    bottom: 0;
+    height: 5rem;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 20px;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: background-color .5s;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo-outter{
+    margin-right: auto;
+    flex: 1;
+}
+
+.navbar{
+    height: 100%;
+    margin: 0 3.5rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    height: max-content;
+}
+
+.nav-link{
+    height: auto;
+    padding: 3px;
+    border: 1px solid white;
+    gap: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.lang-btn {
+    display: flex;
+    align-items: center;
+}
+
+.hero-background-image{
+    width: 100%;
+    transform: none;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.section-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+}
+
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait) {
+    .section-overlay{
+        background: rgba(36, 36, 36, 0.4);
+        background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8));
+    }
+}
+
+/* nabar css start */
+.nav-logo{
+    fill: #e50914;
+    height: 2.25rem;
+        width: 8.375rem;
+}
+
+.logo-outter{
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+    .nav-logo{
+        height: 2.25rem;
+        width: 8.375rem;
+    }
+}
+
+@media only screen and (max-width: 949px) {
+    .nav-logo{
+        height: 2rem;
+        width: 6.75rem;
+    }
+}
+
+/* nabar css ends */
