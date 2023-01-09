@@ -31,6 +31,13 @@
     flex: 1;
 }
 
+.sign-up-wrapper h3{
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 0 5%;
+}
+
 .navbar{
     height: 100%;
     margin: 0 3.5rem;
@@ -74,8 +81,13 @@
     color: white;
 }
 
+.sign-up-wrapper{
+    max-width: 950px;
+    padding-top: 0.85rem;
+}
+
 .main-content h3 {
-    font-weight: 300;
+    font-weight: 400;
     margin: 1rem auto;
     font-size: 1.625rem;
 }
@@ -88,6 +100,8 @@
     text-align: center;
     width: 100%;
     z-index: 1;
+    font-size: 1.625rem;
+    font-weight: 400;
 }
 
 .sign-in-btn{
@@ -100,6 +114,15 @@
     margin-top: 0.1rem;
     color: #fff;
     text-decoration: none;
+}
+
+.main-content-wrapper {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    position: relative;
+    padding: 70px 45px;
 }
 
 .hero-background-image{
@@ -121,11 +144,152 @@
     background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
 }
 
+.sign-up-wrapper h4{
+    font-weight: 400;
+    color: white;
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+}
+
+.form-item-label{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    font-size: 16px;
+    color: grey;
+    left:10px;
+}
+
+.form-group *{
+    border-radius: 2px;
+}
+
+.form-group #form-item{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 70px!important;
+    min-width: 500px;
+    font-size: 16px;
+    padding: 10px 10px 0;
+    outline: none;
+    border: none;
+    position: relative;
+    /* width: 100%; */
+}
+
+.form-group .submit-btn {
+    border-bottom-left-radius: 0;
+    border-left: 1px solid #333;
+    border-top-left-radius: 0;
+    margin: 0!important;
+    font-size: 1.875rem;
+    min-height: 70px;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e50914;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group .submit-btn:hover{
+    background-color: #b60a13;
+    background-image: linear-gradient(180deg,#ce111a,#b8040d);
+    box-shadow: 0 12px 10px rgb(0 0 0 / 45%);
+    transition: all ease-in 0.3s;
+}
+
+.submit-btn > span {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
 @media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait) {
     .section-overlay{
         background: rgba(36, 36, 36, 0.4);
         background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8));
     }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    
+    .sign-up-wrapper h3{
+        font-weight: 400;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px) {
+ 
+    
+    .main-content h1{
+        font-size: 3.6rem;
+    }
+}
+
+@media only screen and (max-width: 949px) {
+    
+    .form-group{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-group #form-item{
+        min-width: 0px;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    .form-group .submit-btn {
+        display: inline-flex;
+        align-items: center;
+        max-width: fit-content;
+        flex-direction: row;
+        line-height: normal;
+        margin: 0.25em auto;
+        padding: 0 1em;
+        width: auto;
+        font-size: 1rem;
+        min-height: 40px;
+        gap: 0px;
+        border-radius: 3px;
+    }
+
+    .form-group .submit-btn span {
+        font-size: 1rem!important;
+        min-height: 40px;     
+        margin-left: 2px; 
+        margin-top: 10px;  
+
+    }
+    
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+    
+    .main-content h1{
+        margin: 0 auto;
+        max-width: 640px;
+        font-size: 48px;
+    }
+
 }
 
 /* nabar css start */
