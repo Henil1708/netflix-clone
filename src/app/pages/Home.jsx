@@ -33,6 +33,72 @@ const Home = () => {
               </div>
             </div>
         </section>
+        <section id='details-wrapper'>
+        <section id='details' >
+          <div className='content-wrapper'>
+            <div className='content-inner'>
+              <div className='content-details'>
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+              </div>
+              <div className='content-img'>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" />
+                <div className='video'>
+                <video class="our-story-card-video" data-uia="our-story-card-video" autoPlay="" playsInline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4" /></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id='details' >
+          <div className='content-wrapper'>
+            <div className='content-inner'>
+              <div className='content-details'>
+                <h2>Download your shows to watch offline.</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+              </div>
+              <div className='content-img'>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" />
+                <div className='video'>
+                <video class="our-story-card-video" data-uia="our-story-card-video" autoPlay="" playsInline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4" /></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id='details' >
+          <div className='content-wrapper'>
+            <div className='content-inner'>
+              <div className='content-details'>
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+              </div>
+              <div className='content-img'>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" />
+                <div className='video'>
+                <video class="our-story-card-video" data-uia="our-story-card-video" autoPlay="" playsInline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4" /></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id='details' >
+          <div className='content-wrapper'>
+            <div className='content-inner'>
+              <div className='content-details'>
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+              </div>
+              <div className='content-img'>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" />
+                <div className='video'>
+                <video class="our-story-card-video" data-uia="our-story-card-video" autoPlay="" playsInline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4" /></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        </section>
     </main>
   )
 }

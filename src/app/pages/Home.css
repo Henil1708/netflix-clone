@@ -1,6 +1,5 @@
 #hero{
     position: relative;
-    margin-bottom: 8px;
     background-color: black;
 }
 
@@ -292,6 +291,12 @@
 
 }
 
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+
+
+
+}    
+
 /* nabar css start */
 .nav-logo{
     fill: #e50914;
@@ -318,3 +323,104 @@
 }
 
 /* nabar css ends */
+
+
+
+/* details card start*/
+#details{
+    padding: 70px 45px;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222;
+}
+
+.content-inner{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;  
+    flex-direction:row ;
+
+}
+
+#details:nth-child(even) div.content-inner{
+    flex-direction: row-reverse;
+}
+
+.content-img{
+    position: relative;
+}
+
+.content-details h2{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+
+.content-details{
+    z-index: 5;
+}
+
+.content-details p{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.content-img img{
+    position: relative;
+    z-index: 2;
+    /* max-width: 100%; */
+}
+
+.video{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+
+    
+
+    .content-details h2{
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+
+    .content-details p{
+        font-size: 1.25rem;
+    }
+
+}
+
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    
+    .content-inner{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-img{
+        overflow: hidden;
+        margin: -10% 0 0;
+    }
+
+}
+
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px) {
+    .content-details p{
+        font-size: 1.125rem;
+    }
+    .content-details h2{
+        font-size: 1.625rem;
+    }
+}
+
+/* details card end*/
