@@ -1,0 +1,426 @@
+#hero{
+    position: relative;
+    background-color: black;
+}
+
+.landing-navbar {
+    background-color: transparent;
+    color: white;
+    z-index: 32;
+    position: relative;
+    height: 4rem;
+    background-color: transparent;
+    bottom: 0;
+    height: 5rem;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 20px;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: background-color .5s;
+    width: 100%;
+    z-index: 10;
+    padding-top: 2rem;
+}
+
+.logo-outter{
+    margin-right: auto;
+    flex: 1;
+}
+
+.sign-up-wrapper h3{
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 0 5%;
+}
+
+.navbar{
+    height: 100%;
+    margin: 0 3.5rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    height: max-content;
+}
+
+.nav-link{
+    height: auto;
+    padding: 3px;
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.lang-btn {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0.3rem;
+    border: 0.1px solid rgb(190, 190, 190);
+    font-size: 13px;
+    margin-right:  1.375rem;
+}
+
+.main-content {
+    padding: 70px 45px;
+}
+
+.main-content h1{
+    font-weight: 700;
+    font-size: 3.25rem;
+}
+
+.main-content h1, .main-content h3{
+    margin: 0 auto;
+    max-width: 640px;
+    color: white;
+}
+
+.sign-up-wrapper{
+    max-width: 950px;
+    padding-top: 0.85rem;
+}
+
+.main-content h3 {
+    font-weight: 400;
+    margin: 1rem auto;
+    font-size: 1.625rem;
+}
+
+.main-content{
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.sign-in-btn{
+    background-color: #e50914;
+    float: right;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    border-radius: 3px;
+    margin-top: 0.1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content-wrapper {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    position: relative;
+    padding: 70px 45px;
+}
+
+.hero-background-image{
+    width: 100%;
+    transform: none;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.section-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+}
+
+.sign-up-wrapper h4{
+    font-weight: 400;
+    color: white;
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+}
+
+.form-item-label{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    font-size: 16px;
+    color: grey;
+    left:10px;
+}
+
+.form-group *{
+    border-radius: 2px;
+}
+
+.form-group #form-item{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 70px!important;
+    min-width: 500px;
+    font-size: 16px;
+    padding: 10px 10px 0;
+    outline: none;
+    border: none;
+    position: relative;
+    /* width: 100%; */
+}
+
+.form-group .submit-btn {
+    border-bottom-left-radius: 0;
+    border-left: 1px solid #333;
+    border-top-left-radius: 0;
+    margin: 0!important;
+    font-size: 1.875rem;
+    min-height: 70px;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e50914;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group .submit-btn:hover{
+    background-color: #b60a13;
+    background-image: linear-gradient(180deg,#ce111a,#b8040d);
+    box-shadow: 0 12px 10px rgb(0 0 0 / 45%);
+    transition: all ease-in 0.3s;
+}
+
+.submit-btn > span {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) and (orientation: portrait) {
+    .section-overlay{
+        background: rgba(36, 36, 36, 0.4);
+        background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8));
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    
+    .sign-up-wrapper h3{
+        font-weight: 400;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px) {
+ 
+    
+    .main-content h1{
+        font-size: 3.6rem;
+    }
+}
+
+@media only screen and (max-width: 949px) {
+    
+    .form-group{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-group #form-item{
+        min-width: 0px;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    .form-group .submit-btn {
+        display: inline-flex;
+        align-items: center;
+        max-width: fit-content;
+        flex-direction: row;
+        line-height: normal;
+        margin: 0.25em auto;
+        padding: 0 1em;
+        width: auto;
+        font-size: 1rem;
+        min-height: 40px;
+        gap: 0px;
+        border-radius: 3px;
+    }
+
+    .form-group .submit-btn span {
+        font-size: 1rem!important;
+        min-height: 40px;     
+        margin-left: 2px; 
+        margin-top: 10px;  
+
+    }
+    
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+    
+    .main-content h1{
+        margin: 0 auto;
+        max-width: 640px;
+        font-size: 48px;
+    }
+
+}
+
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+
+
+
+}    
+
+/* nabar css start */
+.nav-logo{
+    fill: #e50914;
+    height: 2.25rem;
+        width: 8.375rem;
+}
+
+.logo-outter{
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+    .nav-logo{
+        height: 2.25rem;
+        width: 8.375rem;
+    }
+}
+
+@media only screen and (max-width: 949px) {
+    .nav-logo{
+        height: 2rem;
+        width: 6.75rem;
+    }
+}
+
+/* nabar css ends */
+
+
+
+/* details card start*/
+#details{
+    padding: 70px 45px;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222;
+}
+
+.content-inner{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;  
+    flex-direction:row ;
+
+}
+
+#details:nth-child(even) div.content-inner{
+    flex-direction: row-reverse;
+}
+
+.content-img{
+    position: relative;
+}
+
+.content-details h2{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+
+.content-details{
+    z-index: 5;
+}
+
+.content-details p{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.content-img img{
+    position: relative;
+    z-index: 2;
+    /* max-width: 100%; */
+}
+
+.video{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+
+    
+
+    .content-details h2{
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+
+    .content-details p{
+        font-size: 1.25rem;
+    }
+
+}
+
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+    
+    .content-inner{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-img{
+        overflow: hidden;
+        margin: -10% 0 0;
+    }
+
+}
+
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px) {
+    .content-details p{
+        font-size: 1.125rem;
+    }
+    .content-details h2{
+        font-size: 1.625rem;
+    }
+}
+
+/* details card end*/
